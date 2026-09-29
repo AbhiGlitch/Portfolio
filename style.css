@@ -427,8 +427,10 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hero-title { font-size: 2.5rem; }
-    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
     .hamburger {
         display: block;
     }
@@ -454,6 +456,11 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    section { padding: 4rem 5%; }
-    nav { padding: 1.2rem 5%; }
+    section {
+        padding: 4rem 5%;
+    }
+
+    nav {
+        padding: 1.2rem 5%;
+    }
 }
